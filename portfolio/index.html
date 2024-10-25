@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Romildo Jr</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo ao meu Portfólio</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2><br>
+        <div class="sobre-conteudo">
+            <img src="https://avatars.githubusercontent.com/u/49137423?v=4" alt="Foto do Aluno" class="imagem-sobre">
+            <div class="texto-sobre">
+                <p>Olá! Meu nome é Romildo Jr e sou estudante de TADS (Tecnologia em Análise e Desenvolvimento de
+                    Sistemas).</p>
+                <p>Adoro aprender sobre desenvolvimento web e estou sempre em busca de novos desafios.</p><br>
+                <h3>Interesses:</h3>
+                <ul>
+                    <li>Programação</li>
+                    <li>Jogos</li>
+                    <li>Música</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <h2>Meus Projetos</h2><br>
+        <div class="projeto">
+            <h3>Software de Requisições</h3>
+            <p>Software responsável por criar e gerenciar requisições de compras. Com ele é possível solicitar a compra
+                de determinado item, o proprietário da empresa poderá aprovar essa compra e o fornecedor receberá a
+                requisição por email para autorizar a retirada do material.</p>
+        </div>
+        <div class="projeto">
+            <h3>Software de Gerenciamento de Vestiário</h3>
+            <p>Software voltado para o gerenciamento do vestiário da BRF - Rio Verde/GO, com ele e possível gerenciar a
+                coleta de uniformes controlados como por exemplo "Casaco" para quem trabalha na câmara fria. É possível
+                visualizar quem está devendo uniforme e ainda é integrado com a balança de pesagem, onde é feito o
+                controle dos uniformes que vão para a lavanderia. Após o registro das pesagens, o sistema registra a
+                placa do caminhão que está sendo carregado e emite um recibo com o peso liquido e bruto da carga
+                carregada.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2><br>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Romildo Jr. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
