@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ingresso Eletrônico</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .ticket {
+            background: linear-gradient(135deg, #ffffff, #f0f0f0);
+            border: 2px dashed #d9534f;
+            border-radius: 10px;
+            width: 350px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            padding: 20px;
+        }
+
+        .ticket .event-title {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #d9534f;
+            margin-bottom: 10px;
+        }
+
+        .ticket .event-info {
+            font-size: 1em;
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .ticket .ticket-section {
+            text-align: left;
+            border-top: 2px dashed #d9534f;
+            padding-top: 15px;
+            margin-top: 15px;
+        }
+
+        .ticket .ticket-section .buyer-info {
+            font-size: 0.9em;
+        }
+
+        .footer {
+            font-size: 0.8em;
+            color: #888;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="ticket">
+        <div class="event-title">Show da Banda XYZ</div>
+        <div class="event-info">
+            <p><strong>Data:</strong> 15/12/2024</p>
+            <p><strong>Hora:</strong> 20:00</p>
+            <p><strong>Local:</strong> Arena ABC</p>
+        </div>
+        <div class="ticket-section">
+            <p class="buyer-info"><strong>Comprador:</strong> João da Silva</p>
+        </div>
+        <div class="footer">Este ingresso é pessoal e intransferível</div>
+    </div>
+</body>
+
+</html>

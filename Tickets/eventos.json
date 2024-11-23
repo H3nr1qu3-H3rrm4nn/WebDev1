@@ -1,0 +1,50 @@
+[{
+    "id": 1,
+    "nome":"SECOMP 2024", 
+    "data":"2024-11-25",
+    "hora":"20:00",
+    "local":"IFG Campus Flamboyant",
+    "preco":0
+},
+{
+    "id":2,
+    "nome":"Mostra de Oncologia", 
+    "data":"2024-11-25",
+    "hora":"07:00",
+    "local":"Lago JK",
+    "preco":150
+},
+{
+    "id":3,
+    "nome":"Apresentação de Carros Antigos", 
+    "data":"2024-11-25",
+    "hora":"12:30",
+    "local":"Lago Diacuy",
+    "preco":10
+},
+
+{
+    "id": 4,
+    "nome":"Peça de Teatro - A Comédia", 
+    "data":"2024-12-16",
+    "hora":"19:00",
+    "local":"Auditório SESC",
+    "preco": 30
+},
+{
+    "id": 5,
+    "nome":"Show de Música", 
+    "data":"2025-01-05",
+    "hora":"20:00",
+    "local":"Centro de Cultura e Eventos de Jataí",
+    "preco": 55
+},
+{
+    "id": 6,
+    "nome":"Circo du Solei", 
+    "data":"2025-01-05",
+    "hora":"18:00",
+    "local":"Auditório SESC",
+    "preco": 55
+}
+]
